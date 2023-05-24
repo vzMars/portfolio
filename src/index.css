@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: kgcs;
+  src: url('/fonts/kgcs.ttf');
+}
+
+@font-face {
+  font-family: lexreg;
+  src: url('/fonts/lexend-regular.ttf');
+}
+
+@font-face {
+  font-family: lexbold;
+  src: url('/fonts/lexend-bold.ttf');
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  background-color: #171717;
+}
