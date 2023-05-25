@@ -17,12 +17,6 @@
   src: url('/fonts/lexend-bold.ttf');
 }
 
-html,
-body,
-#root {
-  height: 100%;
-}
-
 body {
   background-color: #171717;
 }
