@@ -15,14 +15,6 @@ const Projects = () => {
               A full-stack news blog web application that allows users to create
               blog posts and share those posts with other users.
             </p>
-            <div className='flex flex-wrap gap-3'>
-              <span className='rounded-sm bg-sky-500 p-1.5'>TypeScript</span>
-              <span className='rounded-sm bg-sky-500 p-1.5'>React</span>
-              <span className='rounded-sm bg-sky-500 p-1.5'>Tailwind CSS</span>
-              <span className='rounded-sm bg-sky-500 p-1.5'>Node.js</span>
-              <span className='rounded-sm bg-sky-500 p-1.5'>Express</span>
-              <span className='rounded-sm bg-sky-500 p-1.5'>MongoDB</span>
-            </div>
             <div className='flex space-x-3'>
               <a
                 href='https://gameblog.vzmars.com/'
@@ -41,6 +33,16 @@ const Projects = () => {
                 Code
               </a>
             </div>
+            <div className='flex flex-wrap gap-3'>
+              <span className='rounded-sm bg-sky-500 p-1.5'>TypeScript</span>
+              <span className='rounded-sm bg-sky-500 p-1.5'>React</span>
+              <span className='rounded-sm bg-sky-500 p-1.5'>Tailwind CSS</span>
+            </div>
+            <div className='flex flex-wrap gap-3'>
+              <span className='rounded-sm bg-sky-500 p-1.5'>Node.js</span>
+              <span className='rounded-sm bg-sky-500 p-1.5'>Express</span>
+              <span className='rounded-sm bg-sky-500 p-1.5'>MongoDB</span>
+            </div>
           </div>
         </div>
         <div className='overflow-hidden rounded-md border border-neutral-700'>
@@ -51,14 +53,6 @@ const Projects = () => {
               A full-stack CRM web application that allows companies to track
               and manage the information of their employees.
             </p>
-            <div className='flex flex-wrap gap-3'>
-              <span className='rounded-sm bg-sky-500 p-1.5'>TypeScript</span>
-              <span className='rounded-sm bg-sky-500 p-1.5'>React</span>
-              <span className='rounded-sm bg-sky-500 p-1.5'>Tailwind CSS</span>
-              <span className='rounded-sm bg-sky-500 p-1.5'>Java</span>
-              <span className='rounded-sm bg-sky-500 p-1.5'>Spring Boot</span>
-              <span className='rounded-sm bg-sky-500 p-1.5'>MongoDB</span>
-            </div>
             <div className='flex space-x-3'>
               <a
                 href='https://employeecrm.vzmars.com/'
@@ -77,6 +71,16 @@ const Projects = () => {
                 Code
               </a>
             </div>
+            <div className='flex flex-wrap gap-3'>
+              <span className='rounded-sm bg-sky-500 p-1.5'>TypeScript</span>
+              <span className='rounded-sm bg-sky-500 p-1.5'>React</span>
+              <span className='rounded-sm bg-sky-500 p-1.5'>Tailwind CSS</span>
+            </div>
+            <div className='flex flex-wrap gap-3'>
+              <span className='rounded-sm bg-sky-500 p-1.5'>Java</span>
+              <span className='rounded-sm bg-sky-500 p-1.5'>Spring Boot</span>
+              <span className='rounded-sm bg-sky-500 p-1.5'>MongoDB</span>
+            </div>
           </div>
         </div>
         <div className='overflow-hidden rounded-md border border-neutral-700'>
@@ -88,11 +92,6 @@ const Projects = () => {
               notifications to the server when a tracked series releases a new
               chapter.
             </p>
-            <div className='flex flex-wrap gap-3'>
-              <span className='rounded-sm bg-sky-500 p-1.5'>JavaScript</span>
-              <span className='rounded-sm bg-sky-500 p-1.5'>Node.js</span>
-              <span className='rounded-sm bg-sky-500 p-1.5'>MongoDB</span>
-            </div>
             <div className='flex space-x-3'>
               <a
                 href='https://github.com/vzMars/manga-notifications'
@@ -102,6 +101,11 @@ const Projects = () => {
                 <FaGithub />
                 Code
               </a>
+            </div>
+            <div className='flex flex-wrap gap-3'>
+              <span className='rounded-sm bg-sky-500 p-1.5'>JavaScript</span>
+              <span className='rounded-sm bg-sky-500 p-1.5'>Node.js</span>
+              <span className='rounded-sm bg-sky-500 p-1.5'>MongoDB</span>
             </div>
           </div>
         </div>
@@ -114,11 +118,6 @@ const Projects = () => {
               notifications to the server when a subscribed channel uploads a
               new video.
             </p>
-            <div className='flex flex-wrap gap-3'>
-              <span className='rounded-sm bg-sky-500 p-1.5'>JavaScript</span>
-              <span className='rounded-sm bg-sky-500 p-1.5'>Node.js</span>
-              <span className='rounded-sm bg-sky-500 p-1.5'>MongoDB</span>
-            </div>
             <div className='flex space-x-3'>
               <a
                 href='https://github.com/vzMars/discord-youtube-bot'
@@ -128,6 +127,11 @@ const Projects = () => {
                 <FaGithub />
                 Code
               </a>
+            </div>
+            <div className='flex flex-wrap gap-3'>
+              <span className='rounded-sm bg-sky-500 p-1.5'>JavaScript</span>
+              <span className='rounded-sm bg-sky-500 p-1.5'>Node.js</span>
+              <span className='rounded-sm bg-sky-500 p-1.5'>MongoDB</span>
             </div>
           </div>
         </div>
@@ -139,14 +143,6 @@ const Projects = () => {
               A full-stack social media web application that uses the Google
               Books API and allows users to keep track of their books.
             </p>
-            <div className='flex flex-wrap gap-3'>
-              <span className='rounded-sm bg-sky-500 p-1.5'>JavaScript</span>
-              <span className='rounded-sm bg-sky-500 p-1.5'>React</span>
-              <span className='rounded-sm bg-sky-500 p-1.5'>Tailwind CSS</span>
-              <span className='rounded-sm bg-sky-500 p-1.5'>Node.js</span>
-              <span className='rounded-sm bg-sky-500 p-1.5'>Express</span>
-              <span className='rounded-sm bg-sky-500 p-1.5'>MongoDB</span>
-            </div>
             <div className='flex space-x-3'>
               <a
                 href='https://mybooklist.vzmars.com/'
@@ -165,6 +161,16 @@ const Projects = () => {
                 Code
               </a>
             </div>
+            <div className='flex flex-wrap gap-3'>
+              <span className='rounded-sm bg-sky-500 p-1.5'>JavaScript</span>
+              <span className='rounded-sm bg-sky-500 p-1.5'>React</span>
+              <span className='rounded-sm bg-sky-500 p-1.5'>Tailwind CSS</span>
+            </div>
+            <div className='flex flex-wrap gap-3'>
+              <span className='rounded-sm bg-sky-500 p-1.5'>Node.js</span>
+              <span className='rounded-sm bg-sky-500 p-1.5'>Express</span>
+              <span className='rounded-sm bg-sky-500 p-1.5'>MongoDB</span>
+            </div>
           </div>
         </div>
         <div className='overflow-hidden rounded-md border border-neutral-700'>
@@ -175,14 +181,6 @@ const Projects = () => {
               A full-stack social media web application that allows users to
               upload images and share them with other users.
             </p>
-            <div className='flex flex-wrap gap-3'>
-              <span className='rounded-sm bg-sky-500 p-1.5'>JavaScript</span>
-              <span className='rounded-sm bg-sky-500 p-1.5'>EJS</span>
-              <span className='rounded-sm bg-sky-500 p-1.5'>Bootstrap</span>
-              <span className='rounded-sm bg-sky-500 p-1.5'>Node.js</span>
-              <span className='rounded-sm bg-sky-500 p-1.5'>Express</span>
-              <span className='rounded-sm bg-sky-500 p-1.5'>MongoDB</span>
-            </div>
             <div className='flex space-x-3'>
               <a
                 href='https://itempickups.fly.dev/'
@@ -200,6 +198,16 @@ const Projects = () => {
                 <FaGithub />
                 Code
               </a>
+            </div>
+            <div className='flex flex-wrap gap-3'>
+              <span className='rounded-sm bg-sky-500 p-1.5'>JavaScript</span>
+              <span className='rounded-sm bg-sky-500 p-1.5'>EJS</span>
+              <span className='rounded-sm bg-sky-500 p-1.5'>Bootstrap</span>
+            </div>
+            <div className='flex flex-wrap gap-3'>
+              <span className='rounded-sm bg-sky-500 p-1.5'>Node.js</span>
+              <span className='rounded-sm bg-sky-500 p-1.5'>Express</span>
+              <span className='rounded-sm bg-sky-500 p-1.5'>MongoDB</span>
             </div>
           </div>
         </div>
