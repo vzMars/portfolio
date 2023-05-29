@@ -13,16 +13,25 @@ const Footer = () => {
         >
           <HiMail />
         </a>
-        <a href='https://github.com/vzMars' className='hover:text-sky-500'>
+        <a
+          href='https://github.com/vzMars'
+          className='hover:text-sky-500'
+          target='_blank'
+        >
           <FaGithub />
         </a>
         <a
           href='https://www.linkedin.com/in/marcosgonzalez1731/'
           className='hover:text-sky-500'
+          target='_blank'
         >
           <FaLinkedin />
         </a>
-        <a href='https://twitter.com/vzMars' className='hover:text-sky-500'>
+        <a
+          href='https://twitter.com/vzMars'
+          className='hover:text-sky-500'
+          target='_blank'
+        >
           <FaTwitter />
         </a>
       </div>

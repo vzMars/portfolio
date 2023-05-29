@@ -8,7 +8,7 @@ const Projects = () => {
       </h1>
       <section className='grid gap-8 py-12 sm:grid-cols-2'>
         <div className='overflow-hidden rounded-md border border-neutral-700'>
-          <img src='/images/project1.png' alt='gameblog' />
+          <img src='/images/project1.webp' alt='gameblog' />
           <div className='flex flex-col space-y-4 p-4'>
             <h2 className='font-lexbold text-2xl'>GameBlog</h2>
             <p className='text-gray-300'>
@@ -46,7 +46,7 @@ const Projects = () => {
           </div>
         </div>
         <div className='overflow-hidden rounded-md border border-neutral-700'>
-          <img src='/images/project2.png' alt='employee' />
+          <img src='/images/project2.webp' alt='employee' />
           <div className='flex flex-col space-y-4 p-4'>
             <h2 className='font-lexbold text-2xl'>Employee CRM</h2>
             <p className='text-gray-300'>
@@ -84,7 +84,7 @@ const Projects = () => {
           </div>
         </div>
         <div className='overflow-hidden rounded-md border border-neutral-700'>
-          <img src='/images/project4.png' alt='manga-bot' />
+          <img src='/images/project4.webp' alt='manga-bot' />
           <div className='flex flex-col space-y-4 p-4'>
             <h2 className='font-lexbold text-2xl'>MangaNotifications</h2>
             <p className='text-gray-300'>
@@ -110,7 +110,7 @@ const Projects = () => {
           </div>
         </div>
         <div className='overflow-hidden rounded-md border border-neutral-700'>
-          <img src='/images/project5.png' alt='youtube-bot' />
+          <img src='/images/project5.webp' alt='youtube-bot' />
           <div className='flex flex-col space-y-4 p-4'>
             <h2 className='font-lexbold text-2xl'>Discord YouTube Bot</h2>
             <p className='text-gray-300'>
@@ -136,7 +136,7 @@ const Projects = () => {
           </div>
         </div>
         <div className='overflow-hidden rounded-md border border-neutral-700'>
-          <img src='/images/project3.png' alt='mybooklist' />
+          <img src='/images/project3.webp' alt='mybooklist' />
           <div className='flex flex-col space-y-4 p-4'>
             <h2 className='font-lexbold text-2xl'>MyBookList</h2>
             <p className='text-gray-300'>
@@ -174,7 +174,7 @@ const Projects = () => {
           </div>
         </div>
         <div className='overflow-hidden rounded-md border border-neutral-700'>
-          <img src='/images/project6.png' alt='itempickups' />
+          <img src='/images/project6.webp' alt='itempickups' />
           <div className='flex flex-col space-y-4 p-4'>
             <h2 className='font-lexbold text-2xl'>ItemPickups</h2>
             <p className='text-gray-300'>
