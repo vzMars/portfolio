@@ -8,58 +8,6 @@ const Projects = () => {
       </h1>
       <section className='grid gap-8 py-12 sm:grid-cols-2'>
         <div className='overflow-hidden rounded-md border border-neutral-700'>
-          <img src='/images/project4.webp' alt='manga-bot' />
-          <div className='flex flex-col space-y-4 p-4'>
-            <h2 className='font-lexbold text-2xl'>MangaNotifications</h2>
-            <p className='text-gray-300'>
-              A self-hosted manga notification Discord bot that sends
-              notifications to the server when a tracked series releases a new
-              chapter.
-            </p>
-            <div className='flex space-x-3'>
-              <a
-                href='https://github.com/vzMars/manga-notifications'
-                target='_blank'
-                className='flex items-center gap-1 rounded-sm border-sky-500 bg-white px-2 py-1.5 text-sky-500 hover:opacity-95'
-              >
-                <FaGithub />
-                Code
-              </a>
-            </div>
-            <div className='flex flex-wrap gap-3'>
-              <span className='rounded-sm bg-sky-500 p-1.5'>JavaScript</span>
-              <span className='rounded-sm bg-sky-500 p-1.5'>Node.js</span>
-              <span className='rounded-sm bg-sky-500 p-1.5'>MongoDB</span>
-            </div>
-          </div>
-        </div>
-        <div className='overflow-hidden rounded-md border border-neutral-700'>
-          <img src='/images/project5.webp' alt='youtube-bot' />
-          <div className='flex flex-col space-y-4 p-4'>
-            <h2 className='font-lexbold text-2xl'>Discord YouTube Bot</h2>
-            <p className='text-gray-300'>
-              A self-hosted YouTube notification Discord bot that sends
-              notifications to the server when a subscribed channel uploads a
-              new video.
-            </p>
-            <div className='flex space-x-3'>
-              <a
-                href='https://github.com/vzMars/discord-youtube-bot'
-                target='_blank'
-                className='flex items-center gap-1 rounded-sm border-sky-500 bg-white px-2 py-1.5 text-sky-500 hover:opacity-95'
-              >
-                <FaGithub />
-                Code
-              </a>
-            </div>
-            <div className='flex flex-wrap gap-3'>
-              <span className='rounded-sm bg-sky-500 p-1.5'>JavaScript</span>
-              <span className='rounded-sm bg-sky-500 p-1.5'>Node.js</span>
-              <span className='rounded-sm bg-sky-500 p-1.5'>MongoDB</span>
-            </div>
-          </div>
-        </div>
-        <div className='overflow-hidden rounded-md border border-neutral-700'>
           <img src='/images/project3.webp' alt='mybooklist' />
           <div className='flex flex-col space-y-4 p-4'>
             <h2 className='font-lexbold text-2xl'>MyBookList</h2>
@@ -209,6 +157,58 @@ const Projects = () => {
               <span className='rounded-sm bg-sky-500 p-1.5'>Java</span>
               <span className='rounded-sm bg-sky-500 p-1.5'>Spring Boot</span>
               <span className='rounded-sm bg-sky-500 p-1.5'>PostgreSQL</span>
+            </div>
+          </div>
+        </div>
+        <div className='overflow-hidden rounded-md border border-neutral-700'>
+          <img src='/images/project4.webp' alt='manga-bot' />
+          <div className='flex flex-col space-y-4 p-4'>
+            <h2 className='font-lexbold text-2xl'>MangaNotifications</h2>
+            <p className='text-gray-300'>
+              A self-hosted manga notification Discord bot that sends
+              notifications to the server when a tracked series releases a new
+              chapter.
+            </p>
+            <div className='flex space-x-3'>
+              <a
+                href='https://github.com/vzMars/manga-notifications'
+                target='_blank'
+                className='flex items-center gap-1 rounded-sm border-sky-500 bg-white px-2 py-1.5 text-sky-500 hover:opacity-95'
+              >
+                <FaGithub />
+                Code
+              </a>
+            </div>
+            <div className='flex flex-wrap gap-3'>
+              <span className='rounded-sm bg-sky-500 p-1.5'>JavaScript</span>
+              <span className='rounded-sm bg-sky-500 p-1.5'>Node.js</span>
+              <span className='rounded-sm bg-sky-500 p-1.5'>MongoDB</span>
+            </div>
+          </div>
+        </div>
+        <div className='overflow-hidden rounded-md border border-neutral-700'>
+          <img src='/images/project5.webp' alt='youtube-bot' />
+          <div className='flex flex-col space-y-4 p-4'>
+            <h2 className='font-lexbold text-2xl'>Discord YouTube Bot</h2>
+            <p className='text-gray-300'>
+              A self-hosted YouTube notification Discord bot that sends
+              notifications to the server when a subscribed channel uploads a
+              new video.
+            </p>
+            <div className='flex space-x-3'>
+              <a
+                href='https://github.com/vzMars/discord-youtube-bot'
+                target='_blank'
+                className='flex items-center gap-1 rounded-sm border-sky-500 bg-white px-2 py-1.5 text-sky-500 hover:opacity-95'
+              >
+                <FaGithub />
+                Code
+              </a>
+            </div>
+            <div className='flex flex-wrap gap-3'>
+              <span className='rounded-sm bg-sky-500 p-1.5'>JavaScript</span>
+              <span className='rounded-sm bg-sky-500 p-1.5'>Node.js</span>
+              <span className='rounded-sm bg-sky-500 p-1.5'>MongoDB</span>
             </div>
           </div>
         </div>
