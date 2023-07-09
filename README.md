@@ -4,8 +4,6 @@ An interactive, fully responsive portfolio to showcase my experience and work as
 
 **Link to project:** https://marcosgonzalez.dev
 
-**Back-End:** https://github.com/vzMars/expense-tracker-api
-
 ![alt text](https://i.imgur.com/uk8juMr.png)
 
 ## How It's Made:
