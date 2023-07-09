@@ -18,6 +18,9 @@ const MobileNav = ({ open, setOpen }: PropsType) => {
       <Link to='/'>Home</Link>
       <Link to='/about'>About</Link>
       <Link to='/projects'>Projects</Link>
+      <a href='/Marcos_Gonzalez_Resume.pdf' target='_blank'>
+        Resume
+      </a>
     </nav>
   );
 };

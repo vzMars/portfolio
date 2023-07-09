@@ -12,6 +12,13 @@ const Nav = () => {
       <Link to='/projects' className='hover:text-sky-500'>
         Projects
       </Link>
+      <a
+        href='/Marcos_Gonzalez_Resume.pdf'
+        className='hover:text-sky-500'
+        target='_blank'
+      >
+        Resume
+      </a>
     </nav>
   );
 };
