@@ -15,7 +15,7 @@ const Links = () => {
           <a
             href='https://marcosgonzalez.dev/'
             target='_blank'
-            className='block p-4 hover:text-sky-500'
+            className='block py-5 hover:bg-sky-500 hover:text-black'
           >
             Portfolio
           </a>
@@ -24,7 +24,7 @@ const Links = () => {
           <a
             href='https://github.com/vzmars'
             target='_blank'
-            className='block p-4 hover:text-sky-500'
+            className='block py-5 hover:bg-sky-500 hover:text-black'
           >
             Github
           </a>
@@ -33,7 +33,7 @@ const Links = () => {
           <a
             href='https://www.linkedin.com/in/marcosgonzalez1731/'
             target='_blank'
-            className='block p-4 hover:text-sky-500'
+            className='block py-5 hover:bg-sky-500 hover:text-black'
           >
             LinkedIn
           </a>
@@ -42,7 +42,7 @@ const Links = () => {
           <a
             href='https://twitter.com/vzmars'
             target='_blank'
-            className='block p-4 hover:text-sky-500'
+            className='block py-5 hover:bg-sky-500 hover:text-black'
           >
             Twitter
           </a>
@@ -51,7 +51,7 @@ const Links = () => {
           <a
             href='https://www.instagram.com/vzmars/'
             target='_blank'
-            className='block p-4 hover:text-sky-500'
+            className='block py-5 hover:bg-sky-500 hover:text-black'
           >
             Instagram
           </a>
@@ -60,7 +60,7 @@ const Links = () => {
           <a
             href='https://letterboxd.com/vzmars'
             target='_blank'
-            className='block p-4 hover:text-sky-500'
+            className='block py-5 hover:bg-sky-500 hover:text-black'
           >
             Letterboxd
           </a>
