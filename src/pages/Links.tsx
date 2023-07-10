@@ -6,66 +6,57 @@ const Links = () => {
         alt=''
         className='mb-4 h-[196px] w-[196px] rounded-full object-cover sm:mb-8 sm:h-[280px] sm:w-[280px]'
       />
-      <h1 className='mb-1 text-3xl text-sky-500 sm:text-5xl'>
-        Marcos Gonzalez
-      </h1>
-      <h2 className='text-2xl sm:text-4xl'>Software Engineer</h2>
-      <ul className='flex w-full max-w-md flex-col space-y-4 py-8'>
-        <li className='rounded-sm border-4 border-sky-500'>
-          <a
-            href='https://marcosgonzalez.dev/'
-            target='_blank'
-            className='block py-5 hover:bg-sky-500 hover:text-black'
-          >
-            Portfolio
-          </a>
-        </li>
-        <li className='rounded-sm border-4 border-sky-500'>
-          <a
-            href='https://github.com/vzmars'
-            target='_blank'
-            className='block py-5 hover:bg-sky-500 hover:text-black'
-          >
-            Github
-          </a>
-        </li>
-        <li className='rounded-sm border-4 border-sky-500'>
-          <a
-            href='https://www.linkedin.com/in/marcosgonzalez1731/'
-            target='_blank'
-            className='block py-5 hover:bg-sky-500 hover:text-black'
-          >
-            LinkedIn
-          </a>
-        </li>
-        <li className='rounded-sm border-4 border-sky-500'>
-          <a
-            href='https://twitter.com/vzmars'
-            target='_blank'
-            className='block py-5 hover:bg-sky-500 hover:text-black'
-          >
-            Twitter
-          </a>
-        </li>
-        <li className='rounded-sm border-4 border-sky-500'>
-          <a
-            href='https://www.instagram.com/vzmars/'
-            target='_blank'
-            className='block py-5 hover:bg-sky-500 hover:text-black'
-          >
-            Instagram
-          </a>
-        </li>
-        <li className='rounded-sm border-4 border-sky-500'>
-          <a
-            href='https://letterboxd.com/vzmars'
-            target='_blank'
-            className='block py-5 hover:bg-sky-500 hover:text-black'
-          >
-            Letterboxd
-          </a>
-        </li>
-      </ul>
+      <h1 className='mb-4 text-3xl sm:mb-8 sm:text-5xl'>Marcos Gonzalez</h1>
+      <div className='flex w-full max-w-xs flex-col space-y-4 text-xl'>
+        <a
+          href='https://marcosgonzalez.dev/'
+          target='_blank'
+          className='flex items-center justify-center gap-2 rounded-md bg-brand-100 py-3 hover:brightness-90'
+        >
+          <img src='/images/generic-website.svg' alt='generic-logo' />
+          Portfolio
+        </a>
+        <a
+          href='https://github.com/vzmars'
+          target='_blank'
+          className='flex items-center justify-center gap-2 rounded-md bg-black py-3 hover:brightness-90'
+        >
+          <img src='/images/github.svg' alt='github-logo' />
+          Github
+        </a>
+        <a
+          href='https://www.linkedin.com/in/marcosgonzalez1731/'
+          target='_blank'
+          className='flex items-center justify-center gap-2 rounded-md bg-linkedin-100 py-3 hover:brightness-90'
+        >
+          <img src='/images/linkedin.svg' alt='linkedin-logo' />
+          LinkedIn
+        </a>
+        <a
+          href='https://twitter.com/vzmars'
+          target='_blank'
+          className='flex items-center justify-center gap-2 rounded-md bg-twitter-100 py-3 hover:brightness-90'
+        >
+          <img src='/images/twitter.svg' alt='twitter-logo' />
+          Twitter
+        </a>
+        <a
+          href='https://www.instagram.com/vzmars/'
+          target='_blank'
+          className='flex items-center justify-center gap-2 rounded-md bg-gradient-to-l from-instagram-100 via-instagram-200 to-instagram-300 py-3 hover:brightness-90'
+        >
+          <img src='/images/instagram.svg' alt='instagram-logo' />
+          Instagram
+        </a>
+        <a
+          href='https://letterboxd.com/vzmars'
+          target='_blank'
+          className='flex items-center justify-center gap-2 rounded-md bg-letterboxd-100 py-3 hover:brightness-90'
+        >
+          <img src='/images/letterboxd.svg' alt='letterboxd-logo' />
+          Letterboxd
+        </a>
+      </div>
     </main>
   );
 };
