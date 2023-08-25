@@ -39,85 +39,11 @@ const Projects = () => {
               <span className='rounded-sm bg-sky-500 p-1.5'>Tailwind CSS</span>
             </div>
             <div className='flex flex-wrap gap-3'>
-              <span className='rounded-sm bg-sky-500 p-1.5'>Node.js</span>
-              <span className='rounded-sm bg-sky-500 p-1.5'>Express</span>
-              <span className='rounded-sm bg-sky-500 p-1.5'>MongoDB</span>
-            </div>
-          </div>
-        </div>
-        <div className='overflow-hidden rounded-md border border-neutral-700'>
-          <img src='/images/project1.webp' alt='gameblog' />
-          <div className='flex flex-col space-y-4 p-4'>
-            <h2 className='font-lexbold text-2xl'>GameBlog</h2>
-            <p className='text-gray-300'>
-              A full-stack news blog web application that allows users to create
-              blog posts and share those posts with other users.
-            </p>
-            <div className='flex space-x-3'>
-              <a
-                href='https://gameblog.vzmars.com/'
-                target='_blank'
-                className='flex items-center gap-1 rounded-sm border-sky-500 bg-white px-2 py-1.5 text-sky-500 hover:opacity-95'
-              >
-                <FaExternalLinkAlt />
-                Live
-              </a>
-              <a
-                href='https://github.com/vzMars/gameblog'
-                target='_blank'
-                className='flex items-center gap-1 rounded-sm border-sky-500 bg-white px-2 py-1.5 text-sky-500 hover:opacity-95'
-              >
-                <FaGithub />
-                Code
-              </a>
-            </div>
-            <div className='flex flex-wrap gap-3'>
-              <span className='rounded-sm bg-sky-500 p-1.5'>TypeScript</span>
-              <span className='rounded-sm bg-sky-500 p-1.5'>React</span>
-              <span className='rounded-sm bg-sky-500 p-1.5'>Tailwind CSS</span>
-            </div>
-            <div className='flex flex-wrap gap-3'>
-              <span className='rounded-sm bg-sky-500 p-1.5'>Node.js</span>
-              <span className='rounded-sm bg-sky-500 p-1.5'>Express</span>
-              <span className='rounded-sm bg-sky-500 p-1.5'>MongoDB</span>
-            </div>
-          </div>
-        </div>
-        <div className='overflow-hidden rounded-md border border-neutral-700'>
-          <img src='/images/project2.webp' alt='employee' />
-          <div className='flex flex-col space-y-4 p-4'>
-            <h2 className='font-lexbold text-2xl'>Employee Manager</h2>
-            <p className='text-gray-300'>
-              A full-stack employee manager web application that allows
-              companies to track and manage the information of their employees.
-            </p>
-            <div className='flex space-x-3'>
-              <a
-                href='https://employeemanager.vzmars.com/'
-                target='_blank'
-                className='flex items-center gap-1 rounded-sm border-sky-500 bg-white px-2 py-1.5 text-sky-500 hover:opacity-95'
-              >
-                <FaExternalLinkAlt />
-                Live
-              </a>
-              <a
-                href='https://github.com/vzMars/employee-manager-api'
-                target='_blank'
-                className='flex items-center gap-1 rounded-sm border-sky-500 bg-white px-2 py-1.5 text-sky-500 hover:opacity-95'
-              >
-                <FaGithub />
-                Code
-              </a>
-            </div>
-            <div className='flex flex-wrap gap-3'>
-              <span className='rounded-sm bg-sky-500 p-1.5'>TypeScript</span>
-              <span className='rounded-sm bg-sky-500 p-1.5'>React</span>
-              <span className='rounded-sm bg-sky-500 p-1.5'>Tailwind CSS</span>
-            </div>
-            <div className='flex flex-wrap gap-3'>
-              <span className='rounded-sm bg-sky-500 p-1.5'>Java</span>
-              <span className='rounded-sm bg-sky-500 p-1.5'>Spring Boot</span>
-              <span className='rounded-sm bg-sky-500 p-1.5'>MongoDB</span>
+              <span className='rounded-sm bg-sky-500 p-1.5'>C#</span>
+              <span className='rounded-sm bg-sky-500 p-1.5'>ASP.NET</span>
+              <span className='rounded-sm bg-sky-500 p-1.5'>
+                Microsoft SQL Server
+              </span>
             </div>
           </div>
         </div>
@@ -208,6 +134,82 @@ const Projects = () => {
             <div className='flex flex-wrap gap-3'>
               <span className='rounded-sm bg-sky-500 p-1.5'>JavaScript</span>
               <span className='rounded-sm bg-sky-500 p-1.5'>Node.js</span>
+              <span className='rounded-sm bg-sky-500 p-1.5'>MongoDB</span>
+            </div>
+          </div>
+        </div>
+        <div className='overflow-hidden rounded-md border border-neutral-700'>
+          <img src='/images/project1.webp' alt='gameblog' />
+          <div className='flex flex-col space-y-4 p-4'>
+            <h2 className='font-lexbold text-2xl'>GameBlog</h2>
+            <p className='text-gray-300'>
+              A full-stack news blog web application that allows users to create
+              blog posts and share those posts with other users.
+            </p>
+            <div className='flex space-x-3'>
+              <a
+                href='https://gameblog.vzmars.com/'
+                target='_blank'
+                className='flex items-center gap-1 rounded-sm border-sky-500 bg-white px-2 py-1.5 text-sky-500 hover:opacity-95'
+              >
+                <FaExternalLinkAlt />
+                Live
+              </a>
+              <a
+                href='https://github.com/vzMars/gameblog'
+                target='_blank'
+                className='flex items-center gap-1 rounded-sm border-sky-500 bg-white px-2 py-1.5 text-sky-500 hover:opacity-95'
+              >
+                <FaGithub />
+                Code
+              </a>
+            </div>
+            <div className='flex flex-wrap gap-3'>
+              <span className='rounded-sm bg-sky-500 p-1.5'>TypeScript</span>
+              <span className='rounded-sm bg-sky-500 p-1.5'>React</span>
+              <span className='rounded-sm bg-sky-500 p-1.5'>Tailwind CSS</span>
+            </div>
+            <div className='flex flex-wrap gap-3'>
+              <span className='rounded-sm bg-sky-500 p-1.5'>Node.js</span>
+              <span className='rounded-sm bg-sky-500 p-1.5'>Express</span>
+              <span className='rounded-sm bg-sky-500 p-1.5'>MongoDB</span>
+            </div>
+          </div>
+        </div>
+        <div className='overflow-hidden rounded-md border border-neutral-700'>
+          <img src='/images/project2.webp' alt='employee' />
+          <div className='flex flex-col space-y-4 p-4'>
+            <h2 className='font-lexbold text-2xl'>Employee Manager</h2>
+            <p className='text-gray-300'>
+              A full-stack employee manager web application that allows
+              companies to track and manage the information of their employees.
+            </p>
+            <div className='flex space-x-3'>
+              <a
+                href='https://employeemanager.vzmars.com/'
+                target='_blank'
+                className='flex items-center gap-1 rounded-sm border-sky-500 bg-white px-2 py-1.5 text-sky-500 hover:opacity-95'
+              >
+                <FaExternalLinkAlt />
+                Live
+              </a>
+              <a
+                href='https://github.com/vzMars/employee-manager-api'
+                target='_blank'
+                className='flex items-center gap-1 rounded-sm border-sky-500 bg-white px-2 py-1.5 text-sky-500 hover:opacity-95'
+              >
+                <FaGithub />
+                Code
+              </a>
+            </div>
+            <div className='flex flex-wrap gap-3'>
+              <span className='rounded-sm bg-sky-500 p-1.5'>TypeScript</span>
+              <span className='rounded-sm bg-sky-500 p-1.5'>React</span>
+              <span className='rounded-sm bg-sky-500 p-1.5'>Tailwind CSS</span>
+            </div>
+            <div className='flex flex-wrap gap-3'>
+              <span className='rounded-sm bg-sky-500 p-1.5'>Java</span>
+              <span className='rounded-sm bg-sky-500 p-1.5'>Spring Boot</span>
               <span className='rounded-sm bg-sky-500 p-1.5'>MongoDB</span>
             </div>
           </div>

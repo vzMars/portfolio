@@ -77,10 +77,7 @@ const About = () => {
           <span>Node.js</span>
         </li>
         <li className='flex flex-col items-center justify-center gap-3 text-lg'>
-          <img
-            src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg'
-            className='w-14 sm:w-24'
-          />
+          <i className='devicon-express-original text-[56px] sm:text-8xl'></i>
           <span>Express</span>
         </li>
         <li className='flex flex-col items-center justify-center gap-3 text-lg'>
@@ -99,11 +96,30 @@ const About = () => {
         </li>
         <li className='flex flex-col items-center justify-center gap-3 text-lg'>
           <img
+            src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg'
+            className='w-14 sm:w-24'
+          />
+          <span>C#</span>
+        </li>
+        <li className='flex flex-col items-center justify-center gap-3 text-lg'>
+          <img
+            src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-plain.svg'
+            className='w-14 sm:w-24'
+          />
+          <span>ASP.NET</span>
+        </li>
+        <li className='flex flex-col items-center justify-center gap-3 text-lg'>
+          <img
             src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg'
             className='w-14 sm:w-24'
           />
           <span>PostgreSQL</span>
         </li>
+        <li className='flex flex-col items-center justify-center gap-3 text-lg'>
+          <i className='devicon-microsoftsqlserver-plain text-[56px] sm:text-8xl'></i>
+          <span>Microsoft SQL Server</span>
+        </li>
+
         <li className='flex flex-col items-center justify-center gap-3 text-lg'>
           <img
             src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg'
