@@ -115,15 +115,16 @@ const Projects = () => {
         <div className='overflow-hidden rounded-md border border-neutral-700'>
           <img src='/images/project5.webp' alt='youtube-bot' />
           <div className='flex flex-col space-y-4 p-4'>
-            <h2 className='font-lexbold text-2xl'>Discord YouTube Bot</h2>
+            <h2 className='font-lexbold text-2xl'>
+              Video Game Sales Data Analysis
+            </h2>
             <p className='text-gray-300'>
-              A self-hosted YouTube notification Discord bot that sends
-              notifications to the server when a subscribed channel uploads a
-              new video.
+              An analysis of a dataset that contains video game sales
+              information to gain an understanding of the video game market.
             </p>
             <div className='flex space-x-3'>
               <a
-                href='https://github.com/vzMars/discord-youtube-bot'
+                href='https://github.com/vzMars/video-game-sales-analysis'
                 target='_blank'
                 className='flex items-center gap-1 rounded-sm border-sky-500 bg-white px-2 py-1.5 text-sky-500 hover:opacity-95'
               >
@@ -132,9 +133,10 @@ const Projects = () => {
               </a>
             </div>
             <div className='flex flex-wrap gap-3'>
-              <span className='rounded-sm bg-sky-500 p-1.5'>JavaScript</span>
-              <span className='rounded-sm bg-sky-500 p-1.5'>Node.js</span>
-              <span className='rounded-sm bg-sky-500 p-1.5'>MongoDB</span>
+              <span className='rounded-sm bg-sky-500 p-1.5'>Python</span>
+              <span className='rounded-sm bg-sky-500 p-1.5'>
+                Jupyter Notebook
+              </span>
             </div>
           </div>
         </div>

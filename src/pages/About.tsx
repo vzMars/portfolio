@@ -51,114 +51,120 @@ const About = () => {
         <li className='flex flex-col items-center justify-center gap-3 text-lg'>
           <img
             src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg'
-            className='w-14 sm:w-24'
+            className='w-12 sm:w-24'
           />
           <span>JavaScript</span>
         </li>
         <li className='flex flex-col items-center justify-center gap-3 text-lg'>
           <img
             src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg'
-            className='w-14 sm:w-24'
+            className='w-12 sm:w-24'
           />
           <span>TypeScript</span>
         </li>
         <li className='flex flex-col items-center justify-center gap-3 text-lg'>
           <img
             src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg'
-            className='w-14 sm:w-24'
+            className='w-12 sm:w-24'
           />
           <span>React</span>
         </li>
         <li className='flex flex-col items-center justify-center gap-3 text-lg'>
           <img
             src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg'
-            className='w-14 sm:w-24'
+            className='w-12 sm:w-24'
           />
           <span>Node.js</span>
         </li>
         <li className='flex flex-col items-center justify-center gap-3 text-lg'>
-          <i className='devicon-express-original text-[56px] sm:text-8xl'></i>
+          <i className='devicon-express-original text-[48px] sm:text-8xl'></i>
           <span>Express</span>
         </li>
         <li className='flex flex-col items-center justify-center gap-3 text-lg'>
           <img
             src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg'
-            className='w-14 sm:w-24'
+            className='w-12 sm:w-24'
           />
           <span>Java</span>
         </li>
         <li className='flex flex-col items-center justify-center gap-3 text-lg'>
           <img
             src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg'
-            className='w-14 sm:w-24'
+            className='w-12 sm:w-24'
           />
           <span>Spring Boot</span>
         </li>
         <li className='flex flex-col items-center justify-center gap-3 text-lg'>
           <img
             src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg'
-            className='w-14 sm:w-24'
+            className='w-12 sm:w-24'
           />
           <span>C#</span>
         </li>
         <li className='flex flex-col items-center justify-center gap-3 text-lg'>
           <img
             src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-plain.svg'
-            className='w-14 sm:w-24'
+            className='w-12 sm:w-24'
           />
           <span>ASP.NET</span>
         </li>
         <li className='flex flex-col items-center justify-center gap-3 text-lg'>
           <img
+            src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg'
+            className='w-12 sm:w-24'
+          />
+          <span>Python</span>
+        </li>
+        <li className='flex flex-col items-center justify-center gap-3 text-lg'>
+          <img
             src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg'
-            className='w-14 sm:w-24'
+            className='w-12 sm:w-24'
           />
           <span>PostgreSQL</span>
         </li>
         <li className='flex flex-col items-center justify-center gap-3 text-lg'>
-          <i className='devicon-microsoftsqlserver-plain text-[56px] sm:text-8xl'></i>
+          <i className='devicon-microsoftsqlserver-plain text-[48px] sm:text-8xl'></i>
           <span>Microsoft SQL Server</span>
         </li>
-
         <li className='flex flex-col items-center justify-center gap-3 text-lg'>
           <img
             src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg'
-            className='w-14 sm:w-24'
+            className='w-12 sm:w-24'
           />
           <span>MongoDB</span>
         </li>
         <li className='flex flex-col items-center justify-center gap-3 text-lg'>
           <img
             src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg'
-            className='w-14 sm:w-24'
+            className='w-12 sm:w-24'
           />
           <span>Git</span>
         </li>
         <li className='flex flex-col items-center justify-center gap-3 text-lg'>
           <img
             src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg'
-            className='w-14 sm:w-24'
+            className='w-12 sm:w-24'
           />
           <span>HTML</span>
         </li>
         <li className='flex flex-col items-center justify-center gap-3 text-lg'>
           <img
             src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg'
-            className='w-14 sm:w-24'
+            className='w-12 sm:w-24'
           />
           <span>CSS</span>
         </li>
         <li className='flex flex-col items-center justify-center gap-3 text-lg'>
           <img
             src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg'
-            className='w-14 sm:w-24'
+            className='w-12 sm:w-24'
           />
           <span>Bootstrap</span>
         </li>
         <li className='flex flex-col items-center justify-center gap-3 text-lg'>
           <img
             src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg'
-            className='w-14 sm:w-24'
+            className='w-12 sm:w-24'
           />
           <span>Tailwind CSS</span>
         </li>
