@@ -8,10 +8,11 @@ const About = () => {
         <p>Hey, I'm Marcos Gonzalez.</p>
         <p>
           I'm a software engineer from New York with a deep interest in web
-          development. I graduated from Lehman College with a Bachelor's degree
-          in Computer Science. I am currently looking for a role as a software
-          engineer, front end developer, back end developer or full stack
-          developer.
+          development and data science. I graduated from Lehman College with a Bachelor of Science in
+          Computer Science, where I learned programming fundamentals using Java. During my undergraduate career, I took various
+          programming courses where I learned how to develop mobile applications for Android devices
+          using Java, develop front-end web applications using JavaScript and React, and analyze
+          real-world data sets using Python.
         </p>
         <p>
           I am always seeking new opportunities to apply my skills and grow as a
@@ -25,23 +26,14 @@ const About = () => {
           >
             marcosgonzalez1731@gmail.com
           </a>
-          ,{' '}
+          , or on {' '}
           <a
             href='https://www.linkedin.com/in/marcosgonzalez1731/'
             className='text-sky-500 underline'
             target='_blank'
           >
             LinkedIn
-          </a>{' '}
-          or{' '}
-          <a
-            href='https://twitter.com/vzMars'
-            className='text-sky-500 underline'
-            target='_blank'
-          >
-            Twitter
-          </a>
-          .
+          </a>.
         </p>
       </div>
       <h2 className='my-4 text-center font-lexbold text-xl sm:text-3xl'>
@@ -124,7 +116,7 @@ const About = () => {
         </li>
         <li className='flex flex-col items-center justify-center gap-3 text-lg'>
           <i className='devicon-microsoftsqlserver-plain text-[48px] sm:text-8xl'></i>
-          <span>Microsoft SQL Server</span>
+          <span>SQL Server</span>
         </li>
         <li className='flex flex-col items-center justify-center gap-3 text-lg'>
           <img
@@ -163,7 +155,7 @@ const About = () => {
         </li>
         <li className='flex flex-col items-center justify-center gap-3 text-lg'>
           <img
-            src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg'
+            src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg'
             className='w-12 sm:w-24'
           />
           <span>Tailwind CSS</span>

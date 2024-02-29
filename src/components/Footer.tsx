@@ -27,13 +27,6 @@ const Footer = () => {
         >
           <FaLinkedin />
         </a>
-        <a
-          href='https://twitter.com/vzMars'
-          className='hover:text-sky-500'
-          target='_blank'
-        >
-          <FaTwitter />
-        </a>
       </div>
       <p>&copy; {currentYear} • Marcos Gonzalez</p>
     </footer>
