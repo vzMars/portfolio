@@ -40,7 +40,7 @@ const Projects = () => {
             </div>
             <div className='flex flex-wrap gap-3'>
               <span className='rounded-sm bg-sky-500 p-1.5'>C#</span>
-              <span className='rounded-sm bg-sky-500 p-1.5'>ASP.NET</span>
+              <span className='rounded-sm bg-sky-500 p-1.5'>.NET</span>
               <span className='rounded-sm bg-sky-500 p-1.5'>
                 Microsoft SQL Server
               </span>
@@ -108,7 +108,7 @@ const Projects = () => {
             <div className='flex flex-wrap gap-3'>
               <span className='rounded-sm bg-sky-500 p-1.5'>JavaScript</span>
               <span className='rounded-sm bg-sky-500 p-1.5'>Node.js</span>
-              <span className='rounded-sm bg-sky-500 p-1.5'>MongoDB</span>
+              <span className='rounded-sm bg-sky-500 p-1.5'>PostgreSQL</span>
             </div>
           </div>
         </div>
@@ -134,9 +134,6 @@ const Projects = () => {
             </div>
             <div className='flex flex-wrap gap-3'>
               <span className='rounded-sm bg-sky-500 p-1.5'>Python</span>
-              <span className='rounded-sm bg-sky-500 p-1.5'>
-                Jupyter Notebook
-              </span>
             </div>
           </div>
         </div>

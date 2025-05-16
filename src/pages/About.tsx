@@ -8,11 +8,13 @@ const About = () => {
         <p>Hey, I'm Marcos Gonzalez.</p>
         <p>
           I'm a software engineer from New York with a deep interest in web
-          development and data science. I graduated from Lehman College with a Bachelor of Science in
-          Computer Science, where I learned programming fundamentals using Java. During my undergraduate career, I took various
-          programming courses where I learned how to develop mobile applications for Android devices
-          using Java, develop front-end web applications using JavaScript and React, and analyze
-          real-world data sets using Python.
+          development and data science. I graduated from Lehman College with a
+          Bachelor of Science in Computer Science, where I learned programming
+          fundamentals using Java. During my undergraduate career, I took
+          various programming courses where I learned how to develop mobile
+          applications for Android devices using Java, develop web applications
+          using JavaScript and React, and analyze real-world data sets using
+          Python.
         </p>
         <p>
           I am always seeking new opportunities to apply my skills and grow as a
@@ -26,14 +28,15 @@ const About = () => {
           >
             marcosgonzalez1731@gmail.com
           </a>
-          , or on {' '}
+          , or on{' '}
           <a
             href='https://www.linkedin.com/in/marcosgonzalez1731/'
             className='text-sky-500 underline'
             target='_blank'
           >
             LinkedIn
-          </a>.
+          </a>
+          .
         </p>
       </div>
       <h2 className='my-4 text-center font-lexbold text-xl sm:text-3xl'>
@@ -98,7 +101,7 @@ const About = () => {
             src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-plain.svg'
             className='w-12 sm:w-24'
           />
-          <span>ASP.NET</span>
+          <span>.NET</span>
         </li>
         <li className='flex flex-col items-center justify-center gap-3 text-lg'>
           <img
@@ -113,6 +116,13 @@ const About = () => {
             className='w-12 sm:w-24'
           />
           <span>PostgreSQL</span>
+        </li>
+        <li className='flex flex-col items-center justify-center gap-3 text-lg'>
+          <img
+            src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg'
+            className='w-12 sm:w-24'
+          />
+          <span>MySQL</span>
         </li>
         <li className='flex flex-col items-center justify-center gap-3 text-lg'>
           <i className='devicon-microsoftsqlserver-plain text-[48px] sm:text-8xl'></i>
